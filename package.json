@@ -1,0 +1,26 @@
+{
+  "name": "jest-settimeout-repro",
+  "version": "0.0.0",
+  "description": "...",
+  "main": "build/index.js",
+  "repository": "",
+  "license": "UNLICENSED",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "prepack": "rm -rf ./build && yarn build",
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "jest": "27.0.5",
+    "ts-jest": "^27.0.3",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.23"
+  }
+}

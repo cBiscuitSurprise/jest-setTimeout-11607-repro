@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "sourceMap": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": "./src",
+    "outDir": "build",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "types": ["node", "jest"],
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "**/__*__/*"
+  ]
+}
